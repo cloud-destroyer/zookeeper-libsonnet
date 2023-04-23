@@ -8,7 +8,8 @@
           "subdir": "ksonnet-util"
         }
       },
-      "version": "master"
+      "version": "9ef5dc7124e7292c48bbf0e5a69be1e9548e522d",
+      "sum": "0y3AFX9LQSpfWTxWKSwoLgbt0Wc9nnCwhMH2szKzHv0="
     }
   ],
   "legacyImports": false

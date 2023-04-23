@@ -1,4 +1,4 @@
-local kausal = (import 'ksonnet-util/kausal.libsonnet');
+local kausal = import 'github.com/grafana/jsonnet-libs/ksonnet-util/kausal.libsonnet';
 
 (import 'config.libsonnet')
 + {
