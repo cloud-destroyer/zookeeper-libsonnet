@@ -13,7 +13,7 @@ local kausal = import 'github.com/grafana/jsonnet-libs/ksonnet-util/kausal.libso
     local statefulSet = k.apps.v1.statefulSet,
     local service = k.core.v1.service,
     local pvc = k.core.v1.persistentVolumeClaim,
-    local pdb = k.policy.v1beta1.podDisruptionBudget,
+    local pdb = k.policy.v1.podDisruptionBudget,
 
     local config = $._config.zookeeper,
     local images = $._images,
